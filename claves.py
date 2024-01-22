@@ -18,7 +18,7 @@ restar = 0
 
 print("Generador de claves aleatorias")
 
-#Tomamos el datos de longitud y se comprueba si es una entrada válida
+#Tomamos el dato de longitud y se comprueba si es una entrada válida
 try:
     longitud = int(input('Longitud deseada: '))
 except ValueError:
